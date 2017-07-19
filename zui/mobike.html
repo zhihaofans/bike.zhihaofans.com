@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Mobike Code</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/zui/1.7.0/css/zui.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="alert alert-success with-icon" id="loading-tip">
+            <i class="icon-info"></i>
+            <div class="content">Loading...</div>
+        </div>
+        <div class="panel">
+            <div class="panel-body">
+                <div class="list-group" id="mobike-items"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Here is the code.</h4>
+                </div>
+                <div class="modal-body" id="modal_html"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/zui/1.7.0/js/zui.min.js"></script>
+    <script src="js/mobike.js"></script>
+</body>
+</head>
