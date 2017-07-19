@@ -1,4 +1,4 @@
-var mobike_server = 'http://easy-mock.com/mock/594b9f658ac26d795f4387ac/bike/mo';
+var mobike_server = 'https://easy-mock.com/mock/594b9f658ac26d795f4387ac/bike/mo';
 var link_regex = /[a-zA-z]+:\/\/[^\s]*/;
 $(document).ready(function () {
     mobike_init();

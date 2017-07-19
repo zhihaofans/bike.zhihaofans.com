@@ -1,4 +1,4 @@
-var other_server = 'http://easy-mock.com/mock/594b9f658ac26d795f4387ac/bike/other';
+var other_server = 'https://easy-mock.com/mock/594b9f658ac26d795f4387ac/bike/other';
 var link_regex = /[a-zA-z]+:\/\/[^\s]*/;
 $(document).ready(function () {
     other_init();

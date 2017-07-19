@@ -1,4 +1,4 @@
-var ofo_server = 'http://easy-mock.com/mock/594b9f658ac26d795f4387ac/bike/ofo';
+var ofo_server = 'https://easy-mock.com/mock/594b9f658ac26d795f4387ac/bike/ofo';
 var link_regex = /[a-zA-z]+:\/\/[^\s]*/;
 $(document).ready(function () {
     ofo_init();
