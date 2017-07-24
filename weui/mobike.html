@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>weui</title>
+    <link href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css" rel="stylesheet">
+    <link href="css/jqweui.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- body 顶部加上如下代码 -->
+    <div class="weui-pull-to-refresh__layer">
+        <div class='weui-pull-to-refresh__arrow'></div>
+        <div class='weui-pull-to-refresh__preloader'></div>
+        <div class="down">下拉刷新</div>
+        <div class="up">释放刷新</div>
+        <div class="refresh">正在刷新</div>
+    </div>
+    <header class='demos-header'>
+        <h1 class="demos-title">mobike</h1>
+    </header>
+    <div class="weui-loadmore" id="loading">
+        <i class="weui-loading"></i>
+        <span class="weui-loadmore__tips">正在加载</span>
+    </div>
+    <div class="weui-cells" id="mobike-items"></div>
+    <br>
+    <div class="weui-footer">
+        <p class="weui-footer__links">
+            <a href="index.html" class="weui-footer__link">首页</a>
+        </p>
+        <p class="weui-footer__text">Copyright © 2017 zhihaofans</p>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
+    <script src="js/mobike.js"></script>
+</body>
+
+</html>
