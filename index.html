@@ -1,11 +1,16 @@
 <html>
 
 <head>
-    <title>Hi</title>
+    <title>Bike Code</title>
 </head>
 
 <body>
-    Hi.
+    Hi,i'm loading...
+    <script>
+        var themes = ["zui/index.html", "weui/index.html"];
+        var index = Math.floor(Math.random() * themes.length);
+        setTimeout("location.href = themes[index];", 3000)
+    </script>
 </body>
 
 </html>
