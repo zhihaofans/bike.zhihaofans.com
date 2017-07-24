@@ -7,6 +7,9 @@
 <body>
     Hi,i'm loading...
     <script>
+        if (location.protocol === "http:") {
+            location.href = "https://" + location.hostname + location.pathname;
+        }
         var themes = ["zui/index.html", "weui/index.html"];
         var index = Math.floor(Math.random() * themes.length);
         setTimeout("location.href = themes[index];", 3000)
